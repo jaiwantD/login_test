@@ -8,11 +8,11 @@ const App = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (password === 'Password') {
+    if (password === 'CITCHENNAI') {
       setLoggedIn(true);
       setMessage('');
     } else {
-      setMessage('Password is password');
+      setMessage('Password is the college and location you are studying in');
     }
   };
 
